@@ -62,12 +62,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
   - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: RestartLevel
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: LoadMenu
-  - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: DecSpeed
   - assembly: Assembly-CSharp
@@ -94,6 +88,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: RestartLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: LoadMenu
   sceneClasses:
     Assets/Scenes/MainMenu.unity:
     - Class: 1
@@ -108,7 +108,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -119,6 +125,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1590}
     - Class: 114
+      Script: {instanceID: 2204}
+    - Class: 114
       Script: {instanceID: 2334}
     - Class: 114
       Script: {instanceID: 2640}
@@ -126,6 +134,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2866}
     - Class: 114
       Script: {instanceID: 3164}
+    - Class: 114
+      Script: {instanceID: 4226}
+    - Class: 114
+      Script: {instanceID: 4504}
     - Class: 114
       Script: {instanceID: 5266}
     - Class: 114
@@ -169,8 +181,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
     - Class: 64
@@ -178,6 +188,10 @@ ScriptsOnlyBuild:
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -190,8 +204,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1590}
     - Class: 114
-      Script: {instanceID: 2204}
-    - Class: 114
       Script: {instanceID: 2640}
     - Class: 114
       Script: {instanceID: 2866}
@@ -200,11 +212,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3734}
     - Class: 114
-      Script: {instanceID: 4226}
-    - Class: 114
       Script: {instanceID: 4262}
-    - Class: 114
-      Script: {instanceID: 4504}
     - Class: 114
       Script: {instanceID: 4706}
     - Class: 114
@@ -226,6 +234,8 @@ ScriptsOnlyBuild:
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -338,7 +348,7 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: e091a583a5b14feed12ab925d4c7212f
+      Hash: 56dd9e3d8e08d6129a7940411c18ad77
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MainMenu
@@ -626,7 +636,7 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreak2DMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 46eeec7f66fb63c4a69d3baba5d7a264
+      Hash: 6db07c7e7356ef91a1dd1b347ba8022b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerHealth
@@ -662,7 +672,7 @@ ScriptsOnlyBuild:
     className: UnityOnPointerClickMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 76815025fd2518f43c3d6e8a4b2dfd50
+      Hash: 7ab3b6b3fbcefde80549d2cf65c402ba
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Score
@@ -770,7 +780,7 @@ ScriptsOnlyBuild:
     className: PanelEventHandler
   - hash:
       serializedVersion: 2
-      Hash: fad961f64adadeb59fb71e5e4ecf3252
+      Hash: 703e84c98e036a8040c0cd8f3f52c00e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: cubeController
@@ -1064,6 +1074,6 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   platform: 19
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/MainMenu.unity
-  playerPath: D:/unity/unity projects/3D box run/3D box run.exe
+  - Assets/Scenes/SampleScene.unity
+  playerPath: D:/unity/unity projects/3D box run/BallRun2/3D box run.exe
